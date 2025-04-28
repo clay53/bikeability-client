@@ -10,17 +10,22 @@
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
   "sources": {
-    "bikeability": {
-      "type": "vector",
-      "url": "https://bikeability-tileserver.claytonhickey.me/services/bikeability"
-    },
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=QT4hUSYXX8XWcmW6R4rs"
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL"
+    },
+    "bikeability": {
+      "type": "vector",
+      "tiles": [
+        "https://bikeability-tileserver.claytonhickey.me/services/bikeability/tiles/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14,
+      "scheme": "xyz"
     }
   },
   "sprite": "https://openmaptiles.github.io/maptiler-basic-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=QT4hUSYXX8XWcmW6R4rs",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
   "layers": [
     {
       "id": "background",
