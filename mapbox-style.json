@@ -21,11 +21,11 @@
     },
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=QT4hUSYXX8XWcmW6R4rs"
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=qt4husyxx8xwcmw6r4rs"
     }
   },
   "sprite": "https://openmaptiles.github.io/maptiler-basic-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=qt4husyxx8xwcmw6r4rs",
   "layers": [
     {
       "id": "background",
