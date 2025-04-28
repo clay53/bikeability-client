@@ -10,10 +10,6 @@
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
   "sources": {
-    "openmaptiles": {
-      "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL"
-    },
     "bikeability": {
       "type": "vector",
       "tiles": [
@@ -22,6 +18,10 @@
       "minzoom": 0,
       "maxzoom": 14,
       "scheme": "xyz"
+    },
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=QT4hUSYXX8XWcmW6R4rs"
     }
   },
   "sprite": "https://openmaptiles.github.io/maptiler-basic-gl-style/sprite",
